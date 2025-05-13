@@ -209,9 +209,9 @@ benefits, including official links and instructions on how to access them.
 
 ### [YouTube Premium Student Plan](https://www.youtube.com/premium/student)
 
-- **Eligibility**: Verified college students
-- **Benefit**: $7.99/month (includes YouTube Music and ad-free experience)
-- **Access**: Sign up with your .edu email and verify via SheerID
+- **Eligibility**: Verified college students  
+- **Benefit**: $7.99/month (includes YouTube Music and ad-free experience)  
+- **Access**: Sign up with your .edu email and verify via SheerID  
 
 ### [Wall Street Journal Student Rate](https://education.wsj.com/students/)
 
@@ -241,21 +241,25 @@ benefits, including official links and instructions on how to access them.
 
 - **Eligibility**: Undergraduate and graduate students in the U.S., Canada, UK, Ireland, Australia, and New Zealand
 - **Benefit**: 40% off WNBA League Pass Annual subscription
-- **Access**: [Verify with SheerID](https://verify.sheerid.com/wnba-league-pass/) to receive a one-time-use promo code; verification requires your name, date of birth, email, and proof of enrollment. The discount auto-renews at full price unless canceled.
+- **Access**: [Verify with SheerID](https://verify.sheerid.com/wnba-league-pass/) to receive a one-time-use promo code.
+  Verification requires your name, date of birth, email, and proof of enrollment.
+  The discount auto-renews at full price unless canceled.
 
 ### [NBA League Pass Student Discount](https://www.nba.com/watch/league-pass-stream)
 
 - **Eligibility**: Verified college students
 - **Benefit**: Over 40% off monthly NBA League Pass subscription ($9.99/month)
-- **Access**: [Verify student status](https://verify.sheerid.com/nba-league-pass/) via SheerID to receive a promo code. You must enter your name, email, and college information to be approved.
+- **Access**: [Verify student status](https://verify.sheerid.com/nba-league-pass/) via SheerID to receive a promo code.
+    You must enter your name, email, and college information to be approved.
 
 ### [Max (formerly HBO Max) Student Discount](https://www.max.com/student)
 
 - **Eligibility**: Verified U.S. college students
 - **Benefit**: 50% off Max Basic With Ads — pay $4.99/month instead of $9.99
-- **Access**: Visit [max.com/student](https://www.max.com/student), verify your student status via SheerID, and activate the discounted plan
+- **Access**: Visit [max.com/student](https://www.max.com/student), verify your student status via SheerID,  
+  and activate the discounted plan
 
-## 🚆 Travel & Transportation
+## Travel & Transportation
 
 ### [Amtrak Student Discount](https://www.amtrak.com/student-discounts)
 
@@ -814,7 +818,5 @@ These were used to compile and verify discounts (2023–2025).
 - [Student Beans – U.S. Discount Index](https://www.studentbeans.com/student-discount/us/)
 
 > ⚠️ Always verify current availability on the provider's website, as terms and prices change often.
-
-> 💡 *Pro tip: Always ask if a place offers a student discount—even if it’s not listed online.*  
-
+> 💡 *Pro tip: Always ask if a place offers a student discount—even if it’s not listed online.*
 > *Flash that student ID or use your .edu email wisely.*
