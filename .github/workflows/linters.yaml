@@ -1,0 +1,40 @@
+name: Linting- Markdown,Shell
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  markdown-linting:
+    name: Markdown lint
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: ".markdownlint.json"
+          # dot: false
+          # ignore_files: '".git*/**"'
+
+
+  markdown-check-links:
+    name: Markdown - checking links
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: ".markdownlint.json"
+
+  shellcheck:
+    name: Shellcheck
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
