@@ -1,5 +1,5 @@
 
-# Student Perks, Discounts, and Freebies (U.S. Students, .edu Email Required)
+# Student Perks, Discounts, and Freebies
 
 College students (and graduate students and others with .edu emails) in the U.S. can unlock **exclusive perks and discounts**
 simply by using their `.edu` email address or verifying student status. This directory provides a categorized list of those
