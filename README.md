@@ -18,7 +18,7 @@ A streamlined directory of student perks, discounts, and freebies in the U.S., g
 
 ### [Adobe Creative Cloud Student Plan](https://www.adobe.com/education/students/creativecloud.html)
 
-Students and teachers can get Creative Cloud at a steep education discount, with verification required.
+Students and teachers save 71% on Creative Cloud Pro, with plans starting at $19.99/month for the first year on the annual billed monthly plan.
 
 ### [Autodesk for Education](https://www.autodesk.com/education/edu-software/overview)
 
@@ -128,7 +128,7 @@ $6.99/month for Spotify Premium Student, with Hulu included where available.
 
 ### [TIDAL Student Discount](https://tidal.com/plans/student)
 
-Discounted student pricing is available, but the exact monthly rate should be verified at checkout.
+$6.99/month for eligible students, with ad-free listening and access to lossless, HiRes FLAC, and Dolby Atmos audio.
 
 ### [YouTube Premium Student Plan](https://www.youtube.com/premium/student)
 
