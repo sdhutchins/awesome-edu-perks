@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+  <body id="top" class="min-h-screen bg-white text-stone-900">
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <header class="mb-8 border-b border-stone-200 pb-6">
+        <p class="text-sm font-medium uppercase tracking-[0.2em] text-stone-500">Student Deals Directory</p>
+        <div class="mt-2 flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+          <div class="min-w-0">
+            <h1 class="text-3xl font-semibold tracking-tight text-stone-950 sm:text-4xl">{{ site.title }}</h1>
+            <p class="mt-3 max-w-3xl text-base leading-7 text-stone-600">{{ site.description }}</p>
+          </div>
+
+          <div class="w-full max-w-xs lg:mt-1 lg:flex-shrink-0">
+            <input
+              id="perk-search"
+              type="search"
+              placeholder="Search perks"
+              class="search-input w-full rounded-full border px-4 py-2.5 text-sm outline-none transition"
+            >
+          </div>
+        </div>
+      </header>
+
+      <div class="site-shell lg:grid lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-12">
+        <aside id="section-nav" class="hidden lg:block">
+          <div class="lg:sticky lg:top-8">
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">Browse</p>
+            <nav id="section-nav-content" class="section-nav"></nav>
+          </div>
+        </aside>
+
+        <main class="markdown-body min-w-0">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    <a
+      href="#top"
+      class="back-to-top fixed bottom-5 right-5 inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium shadow-sm transition hover:-translate-y-0.5"
+      aria-label="Back to top"
+    >
+      Top
+    </a>
+
+    <script>
+      (function () {
+        const contentRoot = document.querySelector(".markdown-body");
+        const navRoot = document.getElementById("section-nav-content");
+        if (!contentRoot || !navRoot) return;
+
+        const headings = Array.from(contentRoot.querySelectorAll("h2"));
+        const categoriesHeading = headings.find((heading) => heading.textContent.trim() === "Categories");
+        if (!categoriesHeading) return;
+
+        const categoriesList = categoriesHeading.nextElementSibling;
+        if (!categoriesList || categoriesList.tagName !== "UL") return;
+
+        const navList = categoriesList.cloneNode(true);
+        navRoot.appendChild(navList);
+        categoriesHeading.classList.add("categories-source");
+        categoriesList.classList.add("categories-source");
+      })();
+
+      (function () {
+        const contentRoot = document.querySelector(".markdown-body");
+        const searchInput = document.getElementById("perk-search");
+        if (!contentRoot || !searchInput) return;
+
+        const sectionHeadings = Array.from(contentRoot.querySelectorAll("h2"));
+        const searchableSections = sectionHeadings
+          .filter((heading) => heading.textContent.trim() !== "Categories" && heading.textContent.trim() !== "Discount Aggregators" && heading.textContent.trim() !== "References & Source Articles")
+          .map((heading) => {
+            const entries = [];
+            let node = heading.nextElementSibling;
+
+            while (node && node.tagName !== "H2") {
+              if (node.tagName === "H3") {
+                const entryNodes = [node];
+                let sibling = node.nextElementSibling;
+                while (sibling && sibling.tagName !== "H3" && sibling.tagName !== "H2") {
+                  entryNodes.push(sibling);
+                  sibling = sibling.nextElementSibling;
+                }
+
+                entries.push({
+                  heading: node,
+                  nodes: entryNodes,
+                  text: entryNodes.map((entryNode) => entryNode.textContent.toLowerCase()).join(" ") + " " + heading.textContent.toLowerCase(),
+                });
+              }
+              node = node.nextElementSibling;
+            }
+
+            return { heading, entries };
+          });
+
+        searchInput.addEventListener("input", () => {
+          const query = searchInput.value.trim().toLowerCase();
+
+          searchableSections.forEach((section) => {
+            let visibleEntries = 0;
+
+            section.entries.forEach((entry) => {
+              const matches = query === "" || entry.text.includes(query);
+              entry.nodes.forEach((node) => {
+                node.style.display = matches ? "" : "none";
+              });
+              if (matches) visibleEntries += 1;
+            });
+
+            section.heading.style.display = visibleEntries > 0 || query === "" ? "" : "none";
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

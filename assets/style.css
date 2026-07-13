@@ -1,0 +1,158 @@
+:root {
+  --gothic-black: #000000;
+  --gothic-light: #d1d0d0;
+  --gothic-mauve: #988686;
+  --gothic-taupe: #5c4e4e;
+  --site-bg: #ffffff;
+}
+
+.site-shell,
+.markdown-body,
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: var(--site-bg);
+  color: var(--gothic-taupe);
+}
+
+.markdown-body {
+  color: var(--gothic-taupe);
+  line-height: 1.7;
+}
+
+.section-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-nav li + li {
+  margin-top: 0.45rem;
+}
+
+.section-nav a {
+  display: block;
+  color: #534e4e;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.section-nav a:hover {
+  color: var(--gothic-mauve);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+  color: var(--gothic-black);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.markdown-body h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.markdown-body h2 {
+  margin: 2.75rem 0 1rem;
+  padding-top: 0;
+  border-top: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.markdown-body h3 {
+  margin: 1.6rem 0 0.35rem;
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+.markdown-body p,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body blockquote {
+  margin: 0.75rem 0;
+}
+
+.markdown-body ul {
+  padding-left: 1.25rem;
+}
+
+.markdown-body li + li {
+  margin-top: 0.35rem;
+}
+
+.markdown-body a {
+  color: #534e4e;
+  text-decoration: underline;
+  text-decoration-color: var(--gothic-mauve);
+  text-underline-offset: 0.18em;
+}
+
+.markdown-body a:hover {
+  color: var(--gothic-mauve);
+}
+
+.markdown-body blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid var(--gothic-light);
+  color: var(--gothic-taupe);
+}
+
+.markdown-body code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.375rem;
+  background: color-mix(in srgb, var(--gothic-light) 45%, white);
+  font-size: 0.925em;
+}
+
+.site-shell header {
+  border-bottom-color: var(--gothic-light);
+}
+
+.site-shell header p {
+  color: var(--gothic-mauve);
+}
+
+.site-shell header h1 {
+  color: var(--gothic-black);
+}
+
+.site-shell header > p:last-child {
+  color: var(--gothic-taupe);
+}
+
+.search-input {
+  border-color: var(--gothic-light);
+  background: #fff;
+  color: var(--gothic-black);
+}
+
+.search-input::placeholder {
+  color: var(--gothic-mauve);
+}
+
+.search-input:focus {
+  border-color: var(--gothic-mauve);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gothic-light) 55%, white);
+}
+
+.back-to-top {
+  border-color: var(--gothic-light);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--gothic-black);
+  backdrop-filter: blur(8px);
+}
+
+.back-to-top:hover {
+  border-color: var(--gothic-mauve);
+  color: var(--gothic-black);
+}
+
+@media (min-width: 1024px) {
+  .markdown-body .categories-source {
+    display: none;
+  }
+}
