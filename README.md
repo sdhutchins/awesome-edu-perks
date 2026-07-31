@@ -70,7 +70,13 @@ $8.20/month billed yearly for eligible students, with more collaborators and lon
 
 ### [Prezi for Students](https://prezi.com/gts/pricing/)
 
-Education pricing on Prezi plans, depending on the current offer.
+Prezi offers three education plans billed annually:
+
+- **EDU Plus — $4/month:** For students and educators. Includes unlimited Prezi AI, PowerPoint import, premium images, PDF export, presentation recording, the desktop application, and offline access.
+- **EDU Pro — $8/month:** For students and educators. Includes everything in EDU Plus, plus advanced online training and analytics for tracking class progress.
+- **EDU Teams — $19/month/user:** For administrations and departments. Includes everything in EDU Pro, plus team collaboration tools, analytics, a custom brand kit, and secure single sign-on.
+
+[Compare all Prezi education plan features.](https://prezi.com/gts/pricing/#feature-matrices)
 
 ### [Raycast Pro Student Discount](https://www.raycast.com/)
 
@@ -98,9 +104,9 @@ Half-price Prime for eligible 18-24 year olds and enrolled college students, plu
 
 Up to 10% off at StudentUniverse for Prime Student members.
 
-### [Apple Music Student Plan](https://support.apple.com/en-us/106008)
+### [Apple Music Student Plan](https://offers.applemusic.apple/student-offer)
 
-A discounted Apple Music student subscription, with eligibility verified through Apple.
+Students save on Apple Music and get free access to Apple TV+. Enjoy 1 month free, then pay the special student rate of $6.99/month.[¹](https://offers.applemusic.apple/student-offer#footnote-1)
 
 ### [Disney+ Student Discount](https://www.myunidays.com/US/en-US)
 
