@@ -403,6 +403,10 @@ Up to 40% off PCs, monitors, and printers.
 
 10% off most Nike.com purchases.
 
+### [Sam's Club College Student Membership Discount](https://help.samsclub.com/app/answers/detail/a_id/3938/~/college-students-membership-discount)
+
+60% off a Club membership or $50 off a Plus membership for eligible new college student members.
+
 ### [Samsung Education Discount](https://www.samsung.com/us/shop/offer-program/education/)
 
 Up to 30% off select electronics.
@@ -421,7 +425,7 @@ Student discounts are available through SheerID.
 
 ### [Urban Outfitters Student Discount](https://www.studentbeans.com)
 
-15% off at Urban Outfitters with Student Beans.
+15% off at Urban Outfitters with a Student Beans discount code.
 
 ### [Vans Student Discount](https://www.vans.com/en-us/help/offers)
 
@@ -492,7 +496,7 @@ Deeply discounted digital subscriptions, often around $10/year.
 These platforms verify student status and centralize student deals.
 
 - [UNiDAYS](https://www.myunidays.com) — Student verification + discount codes for tech, fashion, food, streaming
-- [Student Beans](https://www.studentbeans.com) — Alternative aggregator with similar partners and rotating codes
+- [Student Beans](https://www.studentbeans.com/us) — Alternative aggregator with similar partners and rotating codes
 - [ID.me](https://www.id.me/) — Used by Samsung, HP, and federal services for student and military verification
 - [SheerID](https://www.sheerid.com/) — Powers student verification for Spotify, Hulu, Adobe, Max, and others
 - [GitHub Student Developer Pack](https://education.github.com/pack) — Free access to premium tools and services for students
