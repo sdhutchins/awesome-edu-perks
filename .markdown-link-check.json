@@ -40,6 +40,8 @@
     { "pattern": "^https://agoodmovietowatch\\.com" },
     { "pattern": "^https://www\\.reddit\\.com" },
     { "pattern": "^https://www\\.blackhatworld\\.com" },
-    { "pattern": "^https://www\\.studentbeans\\.com" }
+    { "pattern": "^https://www\\.studentbeans\\.com" },
+    { "pattern": "^https://www\\.thenorthface\\.com" },
+    { "pattern": "^https://www\\.vans\\.com" }
   ]
 }
