@@ -18,7 +18,8 @@ A streamlined directory of student perks, discounts, and freebies in the U.S., g
 
 ### [Adobe Creative Cloud Student Plan](https://www.adobe.com/education/students/creativecloud.html)
 
-Students and teachers save 71% on Creative Cloud Pro, with plans starting at $19.99/month for the first year on the annual billed monthly plan.
+Students and teachers save 71% on Creative Cloud Pro, with plans starting at
+$19.99/month for the first year on the annual billed monthly plan.
 
 ### [Autodesk for Education](https://www.autodesk.com/education/edu-software/overview)
 
@@ -72,9 +73,14 @@ $8.20/month billed yearly for eligible students, with more collaborators and lon
 
 Prezi offers three education plans billed annually:
 
-- **EDU Plus — $4/month:** For students and educators. Includes unlimited Prezi AI, PowerPoint import, premium images, PDF export, presentation recording, the desktop application, and offline access.
-- **EDU Pro — $8/month:** For students and educators. Includes everything in EDU Plus, plus advanced online training and analytics for tracking class progress.
-- **EDU Teams — $19/month/user:** For administrations and departments. Includes everything in EDU Pro, plus team collaboration tools, analytics, a custom brand kit, and secure single sign-on.
+- **EDU Plus — $4/month:** For students and educators. Includes unlimited Prezi AI,
+  PowerPoint import, premium images, PDF export, presentation recording,
+  the desktop application, and offline access.
+- **EDU Pro — $8/month:** For students and educators. Includes everything in
+  EDU Plus, plus advanced online training and analytics for tracking class progress.
+- **EDU Teams — $19/month/user:** For administrations and departments. Includes
+  everything in EDU Pro, plus team collaboration tools, analytics, a custom brand kit,
+  and secure single sign-on.
 
 [Compare all Prezi education plan features.](https://prezi.com/gts/pricing/#feature-matrices)
 
