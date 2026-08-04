@@ -103,7 +103,7 @@ $10.99 for 6 months of Ulysses across Mac, iPad, and iPhone, renewable while enr
 
 ## Entertainment (Music, Video & Streaming)
 
-### [Amazon Prime for Young Adults](https://www.amazon.com/Amazon-Student/)
+### [Amazon Prime for Young Adults](https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011)
 
 Half-price Prime for eligible 18-24 year olds and enrolled college students, plus 5% cash back on select categories.
 
@@ -517,18 +517,10 @@ These platforms verify student status and centralize student deals.
 
 These were used to compile and verify discounts (2023–2025).
 
-- [BestColleges – Best College Student Discounts](https://www.bestcolleges.com/resources/best-student-discounts/)
-- [Business Insider – Best Student Discounts of 2025](https://www.businessinsider.com/guides/deals/student-discounts)
+- [NBC Selected – 35+ Best College Discounts 2026](https://www.nbcnews.com/select/shopping/best-college-discounts-2026-rcna590001)
 - [Novorésumé – 99+ Stores with Student Discounts](https://novoresume.com/career-blog/student-discounts)
-- [MakeUseOf – 20 Discounts with a Free EDU Email](https://www.makeuseof.com/tag/free-discounts-student-email/)
-- [1FBUSA – 80+ Best Student Discounts](https://www.1fbusa.com/blog/best-student-discounts-2025)
-- [CIAT – 12 Benefits of a Student Email](https://www.ciat.edu/student-email-benefits/)
-- [Wired – You Can Get Discounts With Your College Email](https://www.wired.com/story/student-discounts-edu-email/)
-- [CollegeData – Best Student Discounts to Use in College](https://www.collegedata.com/resources/college-prep/80-best-student-discounts)
-- [The City Times – Perks with a .edu Email](https://sdcitytimes.com/top-stories/2023/03/23/6-perks-for-city-college-students-with-a-edu-email/)
 - [A Good Movie to Watch – Streaming Services with Student Discounts](https://agoodmovietowatch.com/student-discounts-streaming-services/)
 - [Reddit Thread: r/college & r/MBA Student Discount Lists](https://www.reddit.com/r/MBA/comments/u8yxek/list_of_student_discount_perks_with_edu_email/)
 - [BlackHatWorld – EDU Email Uses (Archived)](https://www.blackhatworld.com/seo/what-can-i-do-with-an-edu-email.1295634/)
-- [Student Beans – U.S. Discount Index](https://www.studentbeans.com/student-discount/us/)
 
 > ⚠️ Always verify current availability on the provider's website, as terms and prices change often.
