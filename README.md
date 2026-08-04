@@ -2,6 +2,8 @@
 
 A streamlined directory of student perks, discounts, and freebies in the U.S., grouped by category with official links.
 
+View the searchable website: https://www.shauritahutchins.com/awesome-edu-perks/
+
 ## Categories
 
 - [Software & Productivity Tools](#software--productivity-tools)
