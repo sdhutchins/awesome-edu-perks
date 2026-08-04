@@ -1,6 +1,7 @@
-# Student Perks, Discounts, and Freebies
-
-A streamlined directory of student perks, discounts, and freebies in the U.S., grouped by category with official links.
+---
+layout: default
+title: Student Perks
+---
 
 ## Categories
 

@@ -1,0 +1,47 @@
+{
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "10s",
+  "httpHeaders": [
+    {
+      "urls": ["https://"],
+      "headers": {
+        "Accept": "text/html",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      }
+    }
+  ],
+  "aliveStatusCodes": [200, 202, 206],
+  "ignorePatterns": [
+    { "pattern": "^https://www\\.adobe\\.com" },
+    { "pattern": "^https://www\\.autodesk\\.com" },
+    { "pattern": "^https://www\\.mathworks\\.com" },
+    { "pattern": "^https://www\\.tableau\\.com" },
+    { "pattern": "^https://www\\.amazon\\.com" },
+    { "pattern": "^https://tidal\\.com" },
+    { "pattern": "^https://www\\.amtrak\\.com" },
+    { "pattern": "^https://www\\.lufthansa\\.com" },
+    { "pattern": "^https://www\\.qatarairways\\.com" },
+    { "pattern": "^https://www\\.studentuniverse\\.com" },
+    { "pattern": "^https://studentadvantage\\.com" },
+    { "pattern": "^https://www\\.ubereats\\.com" },
+    { "pattern": "^https://www\\.calm\\.com" },
+    { "pattern": "^https://www\\.planetfitness\\.com" },
+    { "pattern": "^https://www\\.betterhelp\\.com" },
+    { "pattern": "^https://www\\.niche\\.com" },
+    { "pattern": "^https://www\\.adidas\\.com" },
+    { "pattern": "^https://www\\.bestbuy\\.com" },
+    { "pattern": "^https://www\\.hp\\.com" },
+    { "pattern": "^https://www\\.jcrew\\.com" },
+    { "pattern": "^https://www\\.madewell\\.com" },
+    { "pattern": "^https://www\\.id\\.me" },
+    { "pattern": "^https://www\\.sheerid\\.com" },
+    
+    { "pattern": "^https://agoodmovietowatch\\.com" },
+    { "pattern": "^https://www\\.reddit\\.com" },
+    { "pattern": "^https://www\\.blackhatworld\\.com" },
+    { "pattern": "^https://www\\.studentbeans\\.com" },
+    { "pattern": "^https://www\\.thenorthface\\.com" },
+    { "pattern": "^https://www\\.vans\\.com" }
+  ]
+}
