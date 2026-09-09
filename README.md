@@ -525,3 +525,7 @@ These were used to compile and verify discounts (2023–2025).
 - [BlackHatWorld – EDU Email Uses (Archived)](https://www.blackhatworld.com/seo/what-can-i-do-with-an-edu-email.1295634/)
 
 > ⚠️ Always verify current availability on the provider's website, as terms and prices change often.
+
+## Resume / ATS
+
+- [ResumeAI](https://withresumeai.com/) - Free ATS checker (3/day anonymous, 10/day free account) + open State of ATS 2026 (738 employers, 704 portal-verified; Workday 37.9%). Live candidate leaderboard is paid placement for visibility only — not pay-for-score / not pay-to-get-hired.
