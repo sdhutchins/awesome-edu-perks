@@ -43,6 +43,10 @@ Free Figma Professional for students and educators, with individual and team acc
 
 Free access to 100+ tools, including Canva Pro, JetBrains, Heroku, and MongoDB Atlas.
 
+### [Glasp Student](https://glasp.co/students)
+
+Free Glasp Student plan (web, PDF and YouTube highlighter with AI summaries) for verified university students with a school email, 12 months and renewable while enrolled.
+
 ### [IBM Academic Initiative](https://www.ibm.com/academic/)
 
 Free access to IBM Cloud, Watson, SPSS, and blockchain tools.
